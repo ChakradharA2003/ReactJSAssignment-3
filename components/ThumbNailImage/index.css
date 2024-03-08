@@ -1,0 +1,16 @@
+.image-btn {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.thumb-image {
+  height: 100px;
+  width: 100px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .thumb-image {
+    height: 50px;
+    width: 48px;
+  }
+}
