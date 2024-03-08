@@ -289,7 +289,7 @@ class App extends Component {
     const {generatedUrl, time} = this.state
     if (generatedUrl === imageUrl && time > 0) {
       const newUrl =
-        imagesList[Math.floor(Math.random() * (imagesList.length - 1 - 0)) + 0]
+        imagesList[Math.floor(Math.random() * (imagesList.length - 0)) + 0]
           .imageUrl
       this.setState({
         generatedUrl: newUrl,
