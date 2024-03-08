@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  overflow: auto;
+  margin-top: 0px;
+}
+.game-images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.match-image {
+  height: 400px;
+  width: 500px;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin: 20px;
+}
+.images-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 65%;
+}
+.game-over-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.game-score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play-again-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy-image {
+  height: 180px;
+  width: 260px;
+  margin-top: 85px;
+}
+.score-heading {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.score-para {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 6px;
+}
+.play-again-btn {
+  background-color: #cf60c8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-width: 0px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 450;
+}
+.dummy-lists {
+  display: none;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .play-again-btn {
+    padding: 2px;
+  }
+  .score-heading {
+    font-size: 14px;
+  }
+  .score-para {
+    font-size: 22px;
+  }
+  .trophy-image {
+    height: 120px;
+    width: 200px;
+  }
+  .game-over-container {
+    width: 100vw;
+  }
+  .play-again-container {
+    height: 400px;
+    width: 350px;
+  }
+  .bg-container {
+    height: 100vh;
+  }
+  .images-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-right: auto;
+  }
+  .game-images-container {
+    padding: 18px;
+  }
+  .match-image {
+    height: 230px;
+    width: 330px;
+  }
+  .tabs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+  }
+}
